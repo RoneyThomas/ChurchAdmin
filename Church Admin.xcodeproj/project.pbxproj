@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DDD68D0571133484E612CF4 /* Pods_Church_AdminUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4FA654334866631FF3C01B /* Pods_Church_AdminUITests.framework */; };
 		B40EA5111E7CFA0D00F9A975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40EA5101E7CFA0D00F9A975 /* AppDelegate.swift */; };
 		B40EA5131E7CFA0D00F9A975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40EA5121E7CFA0D00F9A975 /* ViewController.swift */; };
 		B40EA5161E7CFA0D00F9A975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40EA5141E7CFA0D00F9A975 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		B40EA51B1E7CFA0D00F9A975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40EA5191E7CFA0D00F9A975 /* LaunchScreen.storyboard */; };
 		B40EA5261E7CFA0D00F9A975 /* Church_AdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40EA5251E7CFA0D00F9A975 /* Church_AdminTests.swift */; };
 		B40EA5311E7CFA0D00F9A975 /* Church_AdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40EA5301E7CFA0D00F9A975 /* Church_AdminUITests.swift */; };
+		B42391891E7D0829006A9A25 /* AddScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42391881E7D0829006A9A25 /* AddScheduleViewController.swift */; };
+		B4BB311D1EC527DE00815E77 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BB311C1EC527DE00815E77 /* SignInViewController.swift */; };
+		B4BB31231EC528CD00815E77 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BB31221EC528CD00815E77 /* SystemConfiguration.framework */; };
+		B4BB312A1EC579ED00815E77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BB31291EC579ED00815E77 /* GoogleService-Info.plist */; };
+		F0E6D67D6AB33303263A0BDB /* Pods_Church_Admin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F753C55170783F7584D28FB3 /* Pods_Church_Admin.framework */; };
+		F8B3EFAB444D9F527541224A /* Pods_Church_AdminTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F480585D98ED17C617DBC5C /* Pods_Church_AdminTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F9B47B11D484DC9A46C20D0 /* Pods-Church AdminTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Church AdminTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Church AdminTests/Pods-Church AdminTests.release.xcconfig"; sourceTree = "<group>"; };
+		1B4FA654334866631FF3C01B /* Pods_Church_AdminUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Church_AdminUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F902180ABC9028496AD4B7 /* Pods-Church Admin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Church Admin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Church Admin/Pods-Church Admin.release.xcconfig"; sourceTree = "<group>"; };
+		5A35546CFC5234EB0EE5C312 /* Pods-Church Admin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Church Admin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Church Admin/Pods-Church Admin.debug.xcconfig"; sourceTree = "<group>"; };
+		86FD7E3AAE2D395CE3680A8F /* Pods-Church AdminUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Church AdminUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Church AdminUITests/Pods-Church AdminUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F480585D98ED17C617DBC5C /* Pods_Church_AdminTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Church_AdminTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40EA50D1E7CFA0D00F9A975 /* Church Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Church Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40EA5101E7CFA0D00F9A975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B40EA5121E7CFA0D00F9A975 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,17 @@
 		B40EA52C1E7CFA0D00F9A975 /* Church AdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Church AdminUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40EA5301E7CFA0D00F9A975 /* Church_AdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Church_AdminUITests.swift; sourceTree = "<group>"; };
 		B40EA5321E7CFA0D00F9A975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42391881E7D0829006A9A25 /* AddScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddScheduleViewController.swift; sourceTree = "<group>"; };
+		B4BB311B1EC51C5B00815E77 /* Church Admin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Church Admin.entitlements"; sourceTree = "<group>"; };
+		B4BB311C1EC527DE00815E77 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B4BB311E1EC528BC00815E77 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B4BB31201EC528C500815E77 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		B4BB31221EC528CD00815E77 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B4BB31251EC52CF400815E77 /* Church Admin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Church Admin-Bridging-Header.h"; sourceTree = "<group>"; };
+		B4BB31291EC579ED00815E77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E550B4836BA370002A98E8E4 /* Pods-Church AdminUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Church AdminUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Church AdminUITests/Pods-Church AdminUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E71309C88FE10804CFD4096A /* Pods-Church AdminTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Church AdminTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Church AdminTests/Pods-Church AdminTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F753C55170783F7584D28FB3 /* Pods_Church_Admin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Church_Admin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4BB31231EC528CD00815E77 /* SystemConfiguration.framework in Frameworks */,
+				F0E6D67D6AB33303263A0BDB /* Pods_Church_Admin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B3EFAB444D9F527541224A /* Pods_Church_AdminTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +95,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDD68D0571133484E612CF4 /* Pods_Church_AdminUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2407052723303D892B9EDC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A35546CFC5234EB0EE5C312 /* Pods-Church Admin.debug.xcconfig */,
+				47F902180ABC9028496AD4B7 /* Pods-Church Admin.release.xcconfig */,
+				E71309C88FE10804CFD4096A /* Pods-Church AdminTests.debug.xcconfig */,
+				0F9B47B11D484DC9A46C20D0 /* Pods-Church AdminTests.release.xcconfig */,
+				86FD7E3AAE2D395CE3680A8F /* Pods-Church AdminUITests.debug.xcconfig */,
+				E550B4836BA370002A98E8E4 /* Pods-Church AdminUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B40EA5041E7CFA0D00F9A975 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,8 @@
 				B40EA5241E7CFA0D00F9A975 /* Church AdminTests */,
 				B40EA52F1E7CFA0D00F9A975 /* Church AdminUITests */,
 				B40EA50E1E7CFA0D00F9A975 /* Products */,
+				B2407052723303D892B9EDC5 /* Pods */,
+				DFA06ADB2350470E288A054B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +140,17 @@
 		B40EA50F1E7CFA0D00F9A975 /* Church Admin */ = {
 			isa = PBXGroup;
 			children = (
+				B4BB311B1EC51C5B00815E77 /* Church Admin.entitlements */,
 				B40EA5101E7CFA0D00F9A975 /* AppDelegate.swift */,
 				B40EA5121E7CFA0D00F9A975 /* ViewController.swift */,
 				B40EA5141E7CFA0D00F9A975 /* Main.storyboard */,
 				B40EA5171E7CFA0D00F9A975 /* Assets.xcassets */,
 				B40EA5191E7CFA0D00F9A975 /* LaunchScreen.storyboard */,
 				B40EA51C1E7CFA0D00F9A975 /* Info.plist */,
+				B4BB31291EC579ED00815E77 /* GoogleService-Info.plist */,
+				B42391881E7D0829006A9A25 /* AddScheduleViewController.swift */,
+				B4BB311C1EC527DE00815E77 /* SignInViewController.swift */,
+				B4BB31251EC52CF400815E77 /* Church Admin-Bridging-Header.h */,
 			);
 			path = "Church Admin";
 			sourceTree = "<group>";
@@ -125,6 +173,19 @@
 			path = "Church AdminUITests";
 			sourceTree = "<group>";
 		};
+		DFA06ADB2350470E288A054B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4BB31221EC528CD00815E77 /* SystemConfiguration.framework */,
+				B4BB31201EC528C500815E77 /* AddressBook.framework */,
+				B4BB311E1EC528BC00815E77 /* StoreKit.framework */,
+				F753C55170783F7584D28FB3 /* Pods_Church_Admin.framework */,
+				8F480585D98ED17C617DBC5C /* Pods_Church_AdminTests.framework */,
+				1B4FA654334866631FF3C01B /* Pods_Church_AdminUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B40EA5351E7CFA0D00F9A975 /* Build configuration list for PBXNativeTarget "Church Admin" */;
 			buildPhases = (
+				BF8A8B40C28FF6AEB8A22944 /* [CP] Check Pods Manifest.lock */,
 				B40EA5091E7CFA0D00F9A975 /* Sources */,
 				B40EA50A1E7CFA0D00F9A975 /* Frameworks */,
 				B40EA50B1E7CFA0D00F9A975 /* Resources */,
+				0360B9CB2667BC4638FA09E7 /* [CP] Embed Pods Frameworks */,
+				C2A890BDAB09D474308A7E28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B40EA5381E7CFA0D00F9A975 /* Build configuration list for PBXNativeTarget "Church AdminTests" */;
 			buildPhases = (
+				6EB44C5B86847AC7FCA545EF /* [CP] Check Pods Manifest.lock */,
 				B40EA51D1E7CFA0D00F9A975 /* Sources */,
 				B40EA51E1E7CFA0D00F9A975 /* Frameworks */,
 				B40EA51F1E7CFA0D00F9A975 /* Resources */,
+				552C21FBC4FC68C3873EB395 /* [CP] Embed Pods Frameworks */,
+				9F611347C5B5E86A41C4CF04 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B40EA53B1E7CFA0D00F9A975 /* Build configuration list for PBXNativeTarget "Church AdminUITests" */;
 			buildPhases = (
+				1CD5228EF852E69100DBC0F2 /* [CP] Check Pods Manifest.lock */,
 				B40EA5281E7CFA0D00F9A975 /* Sources */,
 				B40EA5291E7CFA0D00F9A975 /* Frameworks */,
 				B40EA52A1E7CFA0D00F9A975 /* Resources */,
+				8154C20BD9AD3FE04D56D786 /* [CP] Embed Pods Frameworks */,
+				115ED4EA8663DE6C440381A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,7 +264,13 @@
 					B40EA50C1E7CFA0D00F9A975 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = P95ME6DE55;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					B40EA5201E7CFA0D00F9A975 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -235,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4BB312A1EC579ED00815E77 /* GoogleService-Info.plist in Resources */,
 				B40EA51B1E7CFA0D00F9A975 /* LaunchScreen.storyboard in Resources */,
 				B40EA5181E7CFA0D00F9A975 /* Assets.xcassets in Resources */,
 				B40EA5161E7CFA0D00F9A975 /* Main.storyboard in Resources */,
@@ -257,12 +334,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0360B9CB2667BC4638FA09E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Church Admin/Pods-Church Admin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		115ED4EA8663DE6C440381A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Church AdminUITests/Pods-Church AdminUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CD5228EF852E69100DBC0F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		552C21FBC4FC68C3873EB395 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Church AdminTests/Pods-Church AdminTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EB44C5B86847AC7FCA545EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8154C20BD9AD3FE04D56D786 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Church AdminUITests/Pods-Church AdminUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F611347C5B5E86A41C4CF04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Church AdminTests/Pods-Church AdminTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF8A8B40C28FF6AEB8A22944 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A890BDAB09D474308A7E28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Church Admin/Pods-Church Admin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B40EA5091E7CFA0D00F9A975 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4BB311D1EC527DE00815E77 /* SignInViewController.swift in Sources */,
 				B40EA5131E7CFA0D00F9A975 /* ViewController.swift in Sources */,
+				B42391891E7D0829006A9A25 /* AddScheduleViewController.swift in Sources */,
 				B40EA5111E7CFA0D00F9A975 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,32 +630,44 @@
 		};
 		B40EA5361E7CFA0D00F9A975 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A35546CFC5234EB0EE5C312 /* Pods-Church Admin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Church Admin/Church Admin.entitlements";
 				DEVELOPMENT_TEAM = P95ME6DE55;
 				INFOPLIST_FILE = "Church Admin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.stmarysorthodoxchurch.Church-Admin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Church Admin/Church Admin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		B40EA5371E7CFA0D00F9A975 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F902180ABC9028496AD4B7 /* Pods-Church Admin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Church Admin/Church Admin.entitlements";
 				DEVELOPMENT_TEAM = P95ME6DE55;
 				INFOPLIST_FILE = "Church Admin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.stmarysorthodoxchurch.Church-Admin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Church Admin/Church Admin-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		B40EA5391E7CFA0D00F9A975 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71309C88FE10804CFD4096A /* Pods-Church AdminTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +683,7 @@
 		};
 		B40EA53A1E7CFA0D00F9A975 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9B47B11D484DC9A46C20D0 /* Pods-Church AdminTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +699,7 @@
 		};
 		B40EA53C1E7CFA0D00F9A975 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86FD7E3AAE2D395CE3680A8F /* Pods-Church AdminUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P95ME6DE55;
@@ -483,6 +714,7 @@
 		};
 		B40EA53D1E7CFA0D00F9A975 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E550B4836BA370002A98E8E4 /* Pods-Church AdminUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P95ME6DE55;
@@ -514,6 +746,7 @@
 				B40EA5371E7CFA0D00F9A975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B40EA5381E7CFA0D00F9A975 /* Build configuration list for PBXNativeTarget "Church AdminTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +755,7 @@
 				B40EA53A1E7CFA0D00F9A975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B40EA53B1E7CFA0D00F9A975 /* Build configuration list for PBXNativeTarget "Church AdminUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +764,7 @@
 				B40EA53D1E7CFA0D00F9A975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

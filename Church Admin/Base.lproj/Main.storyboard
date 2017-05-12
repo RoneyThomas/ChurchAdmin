@@ -1,26 +1,146 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cfR-O3-HLe">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Church_Admin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WQX-Nt-VMA">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Schedule" id="swB-gG-3sU">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="zWv-aG-T1m">
+                                            <connections>
+                                                <segue destination="8EV-Sf-JQI" kind="show" id="Vh3-XS-lea"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sPE-rO-FU2">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="uAr-xA-Ya1" style="IBUITableViewCellStyleDefault" id="Fj0-K5-eYl">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fj0-K5-eYl" id="S7x-aR-MbG">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uAr-xA-Ya1">
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WQX-Nt-VMA" secondAttribute="trailing" id="88h-2g-hn7"/>
+                            <constraint firstItem="sPE-rO-FU2" firstAttribute="leading" secondItem="WQX-Nt-VMA" secondAttribute="leading" id="BjM-sF-eBJ"/>
+                            <constraint firstItem="sPE-rO-FU2" firstAttribute="top" secondItem="WQX-Nt-VMA" secondAttribute="bottom" id="TDU-8E-0b9"/>
+                            <constraint firstItem="sPE-rO-FU2" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="hMv-G2-wRI"/>
+                            <constraint firstItem="WQX-Nt-VMA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nDQ-UG-v2L"/>
+                            <constraint firstItem="WQX-Nt-VMA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="x4z-O1-ukc"/>
+                            <constraint firstItem="sPE-rO-FU2" firstAttribute="trailing" secondItem="WQX-Nt-VMA" secondAttribute="trailing" id="zmM-sA-cMz"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="733" y="124"/>
+        </scene>
+        <!--Sign In View Controller-->
+        <scene sceneID="ZRh-Yp-cxi">
+            <objects>
+                <viewController id="cfR-O3-HLe" customClass="SignInViewController" customModule="Church_Admin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PS3-VU-a1U"/>
+                        <viewControllerLayoutGuide type="bottom" id="Src-sE-3Q2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cwe-Yt-RIj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QdC-qo-QmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-101.25" y="123.59154929577466"/>
+        </scene>
+        <!--Add Schedule View Controller-->
+        <scene sceneID="dMl-4t-p70">
+            <objects>
+                <viewController id="8EV-Sf-JQI" customClass="AddScheduleViewController" customModule="Church_Admin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hKF-qv-uS4"/>
+                        <viewControllerLayoutGuide type="bottom" id="IZe-o7-TsX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gmn-W2-Rw7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d2j-bx-Fjl">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Add Schedule" id="stf-ez-h4I">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="12k-AM-viH">
+                                            <connections>
+                                                <segue destination="tgT-EC-Gk7" kind="unwind" unwindAction="cancelToScheduleTableViewControllerWithSegue:" id="x5Q-0F-q1T"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="jvm-KM-BPG">
+                                            <connections>
+                                                <segue destination="tgT-EC-Gk7" kind="unwind" unwindAction="saveScheduleWithSegue:" id="qQL-eS-mFt"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zKy-8g-yts">
+                                <rect key="frame" x="16" y="74" width="288" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="d2j-bx-Fjl" secondAttribute="trailing" id="263-3s-T4y"/>
+                            <constraint firstItem="d2j-bx-Fjl" firstAttribute="leading" secondItem="Gmn-W2-Rw7" secondAttribute="leading" id="7bb-sU-WIP"/>
+                            <constraint firstItem="d2j-bx-Fjl" firstAttribute="top" secondItem="hKF-qv-uS4" secondAttribute="bottom" id="exh-49-sbT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="sCF-W9-cKb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DMh-tn-Xv1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="tgT-EC-Gk7" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1504" y="124"/>
         </scene>
     </scenes>
 </document>

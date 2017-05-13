@@ -30,11 +30,18 @@ class SignInViewController: UIViewController, FUIAuthDelegate {
         FIRAuth.auth()?.addStateDidChangeListener { auth, user in
             if user != nil {
                 // User is signed in.
-                // TODO remove this
-                self.login()
+                DispatchQueue.main.async() {
+                    [unowned self] in
+                    self.performSegue(withIdentifier: "signedInUser", sender: self)
+                }
             } else {
                 // No user is signed in.
-                self.login()
+//                TODO Remove this in production
+//                self.login()
+                DispatchQueue.main.async() {
+                    [unowned self] in
+                    self.performSegue(withIdentifier: "signedInUser", sender: self)
+                }
             }
         }
     }

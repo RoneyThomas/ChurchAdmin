@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		6DDD68D0571133484E612CF4 /* Pods_Church_AdminUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4FA654334866631FF3C01B /* Pods_Church_AdminUITests.framework */; };
 		B40EA5111E7CFA0D00F9A975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40EA5101E7CFA0D00F9A975 /* AppDelegate.swift */; };
-		B40EA5131E7CFA0D00F9A975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40EA5121E7CFA0D00F9A975 /* ViewController.swift */; };
+		B40EA5131E7CFA0D00F9A975 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40EA5121E7CFA0D00F9A975 /* ScheduleViewController.swift */; };
 		B40EA5161E7CFA0D00F9A975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40EA5141E7CFA0D00F9A975 /* Main.storyboard */; };
 		B40EA5181E7CFA0D00F9A975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40EA5171E7CFA0D00F9A975 /* Assets.xcassets */; };
 		B40EA51B1E7CFA0D00F9A975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40EA5191E7CFA0D00F9A975 /* LaunchScreen.storyboard */; };
 		B40EA5261E7CFA0D00F9A975 /* Church_AdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40EA5251E7CFA0D00F9A975 /* Church_AdminTests.swift */; };
 		B40EA5311E7CFA0D00F9A975 /* Church_AdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40EA5301E7CFA0D00F9A975 /* Church_AdminUITests.swift */; };
 		B42391891E7D0829006A9A25 /* AddScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42391881E7D0829006A9A25 /* AddScheduleViewController.swift */; };
+		B498B1E01EC6ABB2004DEBEF /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B498B1DF1EC6ABB2004DEBEF /* Schedule.swift */; };
 		B4BB311D1EC527DE00815E77 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BB311C1EC527DE00815E77 /* SignInViewController.swift */; };
 		B4BB31231EC528CD00815E77 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BB31221EC528CD00815E77 /* SystemConfiguration.framework */; };
 		B4BB312A1EC579ED00815E77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BB31291EC579ED00815E77 /* GoogleService-Info.plist */; };
@@ -49,7 +50,7 @@
 		8F480585D98ED17C617DBC5C /* Pods_Church_AdminTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Church_AdminTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40EA50D1E7CFA0D00F9A975 /* Church Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Church Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40EA5101E7CFA0D00F9A975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B40EA5121E7CFA0D00F9A975 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B40EA5121E7CFA0D00F9A975 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		B40EA5151E7CFA0D00F9A975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B40EA5171E7CFA0D00F9A975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B40EA51A1E7CFA0D00F9A975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		B40EA5301E7CFA0D00F9A975 /* Church_AdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Church_AdminUITests.swift; sourceTree = "<group>"; };
 		B40EA5321E7CFA0D00F9A975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B42391881E7D0829006A9A25 /* AddScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddScheduleViewController.swift; sourceTree = "<group>"; };
+		B498B1DF1EC6ABB2004DEBEF /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		B4BB311B1EC51C5B00815E77 /* Church Admin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Church Admin.entitlements"; sourceTree = "<group>"; };
 		B4BB311C1EC527DE00815E77 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B4BB311E1EC528BC00815E77 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -142,7 +144,7 @@
 			children = (
 				B4BB311B1EC51C5B00815E77 /* Church Admin.entitlements */,
 				B40EA5101E7CFA0D00F9A975 /* AppDelegate.swift */,
-				B40EA5121E7CFA0D00F9A975 /* ViewController.swift */,
+				B40EA5121E7CFA0D00F9A975 /* ScheduleViewController.swift */,
 				B40EA5141E7CFA0D00F9A975 /* Main.storyboard */,
 				B40EA5171E7CFA0D00F9A975 /* Assets.xcassets */,
 				B40EA5191E7CFA0D00F9A975 /* LaunchScreen.storyboard */,
@@ -151,6 +153,7 @@
 				B42391881E7D0829006A9A25 /* AddScheduleViewController.swift */,
 				B4BB311C1EC527DE00815E77 /* SignInViewController.swift */,
 				B4BB31251EC52CF400815E77 /* Church Admin-Bridging-Header.h */,
+				B498B1DF1EC6ABB2004DEBEF /* Schedule.swift */,
 			);
 			path = "Church Admin";
 			sourceTree = "<group>";
@@ -478,8 +481,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4BB311D1EC527DE00815E77 /* SignInViewController.swift in Sources */,
-				B40EA5131E7CFA0D00F9A975 /* ViewController.swift in Sources */,
+				B40EA5131E7CFA0D00F9A975 /* ScheduleViewController.swift in Sources */,
 				B42391891E7D0829006A9A25 /* AddScheduleViewController.swift in Sources */,
+				B498B1E01EC6ABB2004DEBEF /* Schedule.swift in Sources */,
 				B40EA5111E7CFA0D00F9A975 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

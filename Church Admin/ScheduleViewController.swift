@@ -13,7 +13,9 @@ import FirebaseDatabase
 class ScheduleViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
-
+    
+    var schedule = [Schedule]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
@@ -27,28 +29,41 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
             }
             // If not then serialize to Schedule class
             for child in snapshot.children{
-                let schedule = Schedule(snap: child as! FIRDataSnapshot)
-                print(schedule.title!)
+                self.schedule.append(Schedule(snap: child as! FIRDataSnapshot))
+                print(self.schedule.last?.title as Any)
             }
+            self.tableView.reloadData()
         }) { (error) in
             print(error.localizedDescription)
         }
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 5
+        if schedule.isEmpty {
+            return 0
+        } else {
+            return schedule.count
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         print("numberOfRowsInSection")
-        return 2
+        return (schedule[section].events?.count)!
+    }
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if schedule.isEmpty {
+            print("Its zero")
+            return ""
+        } else {
+            return schedule[section].title
+        }
     }
 
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        print(indexPath)
         let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell") as UITableViewCell!
-        cell.textLabel?.text = "Roney Thomas"
+        cell.textLabel?.text = (schedule[indexPath.section].times?[indexPath.row])! + " : " + (schedule[indexPath.section].events?[indexPath.row])!
         return cell
     }
     

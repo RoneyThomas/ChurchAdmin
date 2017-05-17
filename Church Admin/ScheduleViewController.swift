@@ -14,7 +14,6 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
 
     @IBOutlet weak var tableView: UITableView!
     
-    var ref: FIRDatabaseReference = FIRDatabase.database().reference()
     var scheduleLab = ScheduleLab()
     
     override func viewDidLoad() {

@@ -14,9 +14,7 @@ class Schedule {
     var expiryDate: String?
     var events: [String]?
     var times: [String]?
-    var ref: FIRDatabaseReference = FIRDatabase.database().reference()
-    
-    init(snap: FIRDataSnapshot) {
+    init(snap: DataSnapshot) {
         
         let snapDict = snap.value as! [String: Any]
         

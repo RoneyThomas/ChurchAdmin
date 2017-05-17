@@ -14,11 +14,11 @@ class ScheduleLab {
     
     var schedule = [Schedule]()
     var keys = [String]()
-    var ref: FIRDatabaseReference
+    var ref: DatabaseReference
     var delegate: newDataDelegate?
     
     init(){
-        ref = FIRDatabase.database().reference()
+        ref = Database.database().reference()
         ref.child("schedule").observeSingleEvent(of: .value, with: { (snapshot) in
             // Checking if snapshot is null
             guard snapshot.exists() else {
@@ -27,10 +27,10 @@ class ScheduleLab {
             }
             // Serialize snapshot to Schedule class
             for child in snapshot.children{
-                self.schedule.append(Schedule(snap: child as! FIRDataSnapshot))
+                self.schedule.append(Schedule(snap: child as! DataSnapshot))
                 print(self.schedule.last?.title as Any)
                 // Save keys. This is used later for deleting a child
-                self.keys.append((child as! FIRDataSnapshot).key)
+                self.keys.append((child as! DataSnapshot).key)
             }
             self.delegate?.reloadTable()
         }) { (error) in

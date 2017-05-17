@@ -27,7 +27,7 @@ class SignInViewController: UIViewController, FUIAuthDelegate {
     }
     
     func checkLoggedIn() {
-        FIRAuth.auth()?.addStateDidChangeListener { auth, user in
+        Auth.auth().addStateDidChangeListener { auth, user in
             if user != nil {
                 // User is signed in.
                 DispatchQueue.main.async() {
@@ -56,7 +56,7 @@ class SignInViewController: UIViewController, FUIAuthDelegate {
         self.present(authViewController!, animated: true, completion: nil)
     }
     
-    func authUI(_ authUI: FUIAuth, didSignInWith user: FIRUser?, error: Error?) {
+    func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
         if error != nil {
             //Problem signing in
             login()

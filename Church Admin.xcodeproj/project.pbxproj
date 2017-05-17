@@ -16,6 +16,8 @@
 		B40EA5261E7CFA0D00F9A975 /* Church_AdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40EA5251E7CFA0D00F9A975 /* Church_AdminTests.swift */; };
 		B40EA5311E7CFA0D00F9A975 /* Church_AdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40EA5301E7CFA0D00F9A975 /* Church_AdminUITests.swift */; };
 		B42391891E7D0829006A9A25 /* AddScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42391881E7D0829006A9A25 /* AddScheduleViewController.swift */; };
+		B47F32DE1ECCB724002C862B /* ScheduleLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F32DD1ECCB724002C862B /* ScheduleLab.swift */; };
+		B47F32E01ECD053A002C862B /* newDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F32DF1ECD053A002C862B /* newDataDelegate.swift */; };
 		B498B1E01EC6ABB2004DEBEF /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B498B1DF1EC6ABB2004DEBEF /* Schedule.swift */; };
 		B4BB311D1EC527DE00815E77 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BB311C1EC527DE00815E77 /* SignInViewController.swift */; };
 		B4BB31231EC528CD00815E77 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BB31221EC528CD00815E77 /* SystemConfiguration.framework */; };
@@ -62,6 +64,8 @@
 		B40EA5301E7CFA0D00F9A975 /* Church_AdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Church_AdminUITests.swift; sourceTree = "<group>"; };
 		B40EA5321E7CFA0D00F9A975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B42391881E7D0829006A9A25 /* AddScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddScheduleViewController.swift; sourceTree = "<group>"; };
+		B47F32DD1ECCB724002C862B /* ScheduleLab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleLab.swift; sourceTree = "<group>"; };
+		B47F32DF1ECD053A002C862B /* newDataDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newDataDelegate.swift; sourceTree = "<group>"; };
 		B498B1DF1EC6ABB2004DEBEF /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		B4BB311B1EC51C5B00815E77 /* Church Admin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Church Admin.entitlements"; sourceTree = "<group>"; };
 		B4BB311C1EC527DE00815E77 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +158,8 @@
 				B4BB311C1EC527DE00815E77 /* SignInViewController.swift */,
 				B4BB31251EC52CF400815E77 /* Church Admin-Bridging-Header.h */,
 				B498B1DF1EC6ABB2004DEBEF /* Schedule.swift */,
+				B47F32DD1ECCB724002C862B /* ScheduleLab.swift */,
+				B47F32DF1ECD053A002C862B /* newDataDelegate.swift */,
 			);
 			path = "Church Admin";
 			sourceTree = "<group>";
@@ -480,8 +486,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B47F32E01ECD053A002C862B /* newDataDelegate.swift in Sources */,
 				B4BB311D1EC527DE00815E77 /* SignInViewController.swift in Sources */,
 				B40EA5131E7CFA0D00F9A975 /* ScheduleViewController.swift in Sources */,
+				B47F32DE1ECCB724002C862B /* ScheduleLab.swift in Sources */,
 				B42391891E7D0829006A9A25 /* AddScheduleViewController.swift in Sources */,
 				B498B1E01EC6ABB2004DEBEF /* Schedule.swift in Sources */,
 				B40EA5111E7CFA0D00F9A975 /* AppDelegate.swift in Sources */,

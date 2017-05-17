@@ -36,8 +36,7 @@ class SignInViewController: UIViewController, FUIAuthDelegate {
                 }
             } else {
                 // No user is signed in.
-//                TODO Remove this in production
-//                self.login()
+                self.login()
                 DispatchQueue.main.async() {
                     [unowned self] in
                     self.performSegue(withIdentifier: "signedInUser", sender: self)

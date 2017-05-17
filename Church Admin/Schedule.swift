@@ -14,6 +14,7 @@ class Schedule {
     var expiryDate: String?
     var events: [String]?
     var times: [String]?
+    var ref: FIRDatabaseReference = FIRDatabase.database().reference()
     
     init(snap: FIRDataSnapshot) {
         
